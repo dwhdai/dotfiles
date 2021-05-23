@@ -11,4 +11,4 @@ Dotfiles repository using the method described by this blog post: https://www.ac
 
 # copied from:
 
-1. tmux theme from https://github.com/rothgar/awesome-tmux
+1. tmux theme from https://github.com/gpakosz/.tmux 
