@@ -8,3 +8,7 @@ Dotfiles repository using the method described by this blog post: https://www.ac
 3. `alias config='/usr/bin/git --git-dir=$HOME/.cfg/.git --work-tree=$HOME'`
 4. `config config --local status.showUntrackedFiles no`
 5. `config checkout`
+
+# copied from:
+
+1. tmux theme from https://github.com/rothgar/awesome-tmux
