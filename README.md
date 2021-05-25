@@ -11,4 +11,6 @@ Dotfiles repository using the method described by this blog post: https://www.ac
 
 # copied from:
 
-1. tmux theme from https://github.com/gpakosz/.tmux 
+1. tmux theme from https://github.com/gpakosz/.tmux
+
+Note: sometimes the theme doesn't automatically load. If not, run `source ./.oh-my-zsh/themes/theme-name.zsh-theme` to manually source it.
