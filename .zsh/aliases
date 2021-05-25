@@ -1,1 +1,2 @@
 alias config='/usr/bin/git --git-dir=/Users/daviddai/.cfg/.git --work-tree=/Users/daviddai'
+alias config='/usr/bin/git --git-dir=/Users/daviddai/.cfg/.git/ --work-tree=/Users/daviddai'
