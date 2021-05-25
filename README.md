@@ -8,6 +8,8 @@ Dotfiles repository using the method described by this blog post: https://www.ac
 3. `alias config='/usr/bin/git --git-dir=$HOME/.cfg/.git --work-tree=$HOME'`
 4. `config config --local status.showUntrackedFiles no`
 5. `config checkout`
+6.  Install Vundle: `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+7.  Install plugins: open `vim`, run `:PluginInstall`
 
 # copied from:
 
