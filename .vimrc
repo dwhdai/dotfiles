@@ -37,6 +37,7 @@ set number
 set showcmd " show last command
 set ruler " show current position
 set showmatch "show matching braces
+set cursorline 
 
 " no backup, swap files
 set nobackup
