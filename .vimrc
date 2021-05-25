@@ -11,8 +11,11 @@ Plugin 'VundleVim/Vundle.vim'
 " NERD tree - tree explorer
 Plugin 'scrooloose/nerdtree'
 
+" Theme
+Plugin 'morhetz/gruvbox'
+
 " Base16 colorschemes
-Plugin 'chriskempson/base16-vim'
+"Plugin 'chriskempson/base16-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -57,12 +60,10 @@ set autoread
 " Colors, fonts
 """"""
 
+autocmd vimenter * nested colorscheme gruvbox " activate gruvbox theme
 syntax on 
 set encoding=utf8
 set background=dark
-let base16colorspace=256
-colorscheme base16-horizon-dark
-
 
 set expandtab " use spaces for tabs
 set shiftwidth=4
