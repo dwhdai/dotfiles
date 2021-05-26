@@ -70,3 +70,5 @@ set expandtab " use spaces for tabs
 set shiftwidth=4
 set softtabstop=4
 
+" DVC
+autocmd! BufNewFile,BufRead Dvcfile,*.dvc,dvc.lock setfiletype yaml
