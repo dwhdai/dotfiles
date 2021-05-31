@@ -1,1 +1,3 @@
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/.git --work-tree=$HOME'
+alias r4='radian --r-binary=/opt/R/4.0.2/bin/R'
+alias r3='radian --r-binary=/opt/R/3.6.3/bin/R'
