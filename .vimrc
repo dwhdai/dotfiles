@@ -70,5 +70,8 @@ set expandtab " use spaces for tabs
 set shiftwidth=4
 set softtabstop=4
 
+set belloff=all " turn off annoying bell sounds
+
+
 " DVC
 autocmd! BufNewFile,BufRead Dvcfile,*.dvc,dvc.lock setfiletype yaml
