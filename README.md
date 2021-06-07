@@ -10,6 +10,8 @@ Dotfiles repository using the method described by this blog post: https://www.ac
 5. `config checkout`
 6.  Install Vundle: `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 7.  Install plugins: open `vim`, run `:PluginInstall`
+8.  Install zsh via `apt-get install zsh`.
+9.  Install oh-my-zsh: `sh -c "$wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # copied from:
 
