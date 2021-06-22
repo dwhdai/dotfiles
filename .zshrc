@@ -1,6 +1,9 @@
 # Source aliases
 source $HOME/.zsh/aliases
 
+# Activate autocomplete
+autoload -Uz compinit && compinit
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
