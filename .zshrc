@@ -4,6 +4,13 @@ do
   source $a
 done
 
+# Line navigation shortcuts
+bindkey "^B" backward-word
+bindkey "^F" forward-word
+
+# Source tmux config
+# tmux source-file $HOME/.tmux.conf
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
