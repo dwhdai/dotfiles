@@ -32,7 +32,7 @@ set incsearch
 set ignorecase
 
 " show line numbers
-set number
+set number relativenumber
 
 set showcmd " show last command
 set ruler " show current position
